@@ -1,0 +1,9 @@
+*{
+    font-family: DS Sans, sans-serif;
+}
+
+.filter-container{
+    margin-top:30px;
+    display: flex;
+
+}
