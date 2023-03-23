@@ -8,30 +8,38 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <div class="name-container">
-    Enter your name
-    <input type="text">
-    </div>
-    <div class="filter-container">
-        <div class="id-check-box">
-           ID <input type="checkbox" name="id" id="id">
-        </div>
-        <div class="firstname-check-box">
-            First Name <input type="checkbox" name="fname" id="fname">
-         </div>
-         <div class="lname-check-box">
-            Last Name <input type="checkbox" name="lname" id="lname">
-         </div>
-         <div class="address-check-box">
-            Adress<input type="checkbox" name="adrress" id="adrress">
-         </div>
-         <div class="phone-check-box">
-            Phone<input type="checkbox" name="phone" id="phone ">
-         </div>
-         <button id="#search">Search User</button>
+    <div class="container">
+        <div class="name-container">
+            Enter your name
+            <input type="text" id="input">
+            </div>
+            <div class="filter-container">
         
+                <div class="firstname-check-box">
+                    First Name <input type="checkbox" name="fname" id="fname">
+                 </div>
+                 <div class="lname-check-box">
+                    Last Name <input type="checkbox" name="lname" id="lname">
+                 </div>
+                 <div class="address-check-box">
+                    Adress<input type="checkbox" name="adrress" id="address">
+                 </div>
+                 <div class="phone-check-box">
+                    Phone<input type="checkbox" name="phone" id="phone ">
+                 </div>
+                
+            </div>
+            <button id="search">Search User</button>
+        
+           
+           
     </div>
-   
+    <p id="uid"></p>
+    <p id="ufirstname"></p>
+    <p id="ulastname"></p>
+    <p id="uaddress"></p>
+    <p id="uphone"></p>
+
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">  </script>
     <script src="./index.js"></script>
 </body>
